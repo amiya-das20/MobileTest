@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.917 s <<< FAILURE! - in TestSuite
+Demo(TestTestNg.Day1Test)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at TestTestNg.Day1Test.Demo(Day1Test.java:21)
+
+Weblogincarloan(TestTestNg.Day3Test)  Time elapsed: 0.366 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'URL' is required by @Test on method Weblogincarloan but has not been marked @Optional or defined
+
+
+Webloginhomeloan(TestTestNg.Day4Test)  Time elapsed: 0.412 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'URL' is required by @Test on method Webloginhomeloan but has not been marked @Optional or defined
+
+

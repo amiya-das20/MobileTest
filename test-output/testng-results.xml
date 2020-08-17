@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="13" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="113" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.ploan()[pri:0, instance:TestTestNg.Day2@5e5792a0]" name="ploan" class="TestTestNg.Day2"/>
+        <method signature="Day4.Mobileloginhomeloan()[pri:0, instance:TestTestNg.Day4@3532ec19]" name="Mobileloginhomeloan" class="TestTestNg.Day4"/>
+        <method signature="Day3.MobileloginCarloan()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="MobileloginCarloan" class="TestTestNg.Day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Car Loan" duration-ms="113" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+      <class name="TestTestNg.Day1">
+        <test-method status="PASS" signature="Afsuit()[pri:0, instance:TestTestNg.Day1@26653222]" name="Afsuit" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afsuit -->
+      </class> <!-- TestTestNg.Day1 -->
+      <class name="TestTestNg.Day3">
+        <test-method status="PASS" signature="Bfsuit()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Bfsuit" is-config="true" duration-ms="17" started-at="2020-08-13T11:20:03Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuit -->
+        <test-method status="PASS" signature="Beforeclass()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Beforeclass" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="beforeevery" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="MobileloginCarloan()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="MobileloginCarloan" duration-ms="7" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarloan -->
+        <test-method status="PASS" signature="Afterevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Afterevery" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterevery -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="beforeevery" is-config="true" duration-ms="1" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="MobilesignoutCarloan(java.lang.String, java.lang.String)[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="MobilesignoutCarloan" duration-ms="2" started-at="2020-08-13T11:20:04Z" data-provider="getdata" finished-at="2020-08-13T11:20:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutCarloan -->
+        <test-method status="PASS" signature="Afterevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Afterevery" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterevery -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="beforeevery" is-config="true" duration-ms="1" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="MobilesignoutCarloan(java.lang.String, java.lang.String)[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="MobilesignoutCarloan" duration-ms="1" started-at="2020-08-13T11:20:04Z" data-provider="getdata" finished-at="2020-08-13T11:20:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutCarloan -->
+        <test-method status="PASS" signature="Afterevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Afterevery" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterevery -->
+        <test-method status="PASS" signature="MobilesignoutCarloan(java.lang.String, java.lang.String)[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="MobilesignoutCarloan" duration-ms="2" started-at="2020-08-13T11:20:04Z" data-provider="getdata" finished-at="2020-08-13T11:20:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutCarloan -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="beforeevery" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="Afterevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Afterevery" is-config="true" duration-ms="1" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterevery -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="beforeevery" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="Weblogincarloan(java.lang.String, java.lang.String)[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Weblogincarloan" duration-ms="1" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Weblogincarloan -->
+        <test-method status="PASS" signature="Afterevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Afterevery" is-config="true" duration-ms="4" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterevery -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="beforeevery" is-config="true" duration-ms="1" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="LoginApicarloan()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="LoginApicarloan" duration-ms="5" started-at="2020-08-13T11:20:04Z" depends-on-methods="TestTestNg.Day3.MobileloginCarloan" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApicarloan -->
+        <test-method status="PASS" signature="Afterevery()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Afterevery" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterevery -->
+        <test-method status="PASS" signature="Afterclass()[pri:0, instance:TestTestNg.Day3@31ef45e3]" name="Afterclass" is-config="true" duration-ms="0" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- TestTestNg.Day3 -->
+    </test> <!-- Car Loan -->
+    <test name="Personal Loan" duration-ms="79" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+      <class name="TestTestNg.Day1">
+        <test-method status="FAIL" signature="Demo()[pri:0, instance:TestTestNg.Day1@26653222]" name="Demo" duration-ms="12" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at TestTestNg.Day1.Demo(Day1.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Lastexecution()[pri:0, instance:TestTestNg.Day1@26653222]" name="Lastexecution" is-config="true" duration-ms="1" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lastexecution -->
+      </class> <!-- TestTestNg.Day1 -->
+      <class name="TestTestNg.Day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:TestTestNg.Day2@5e5792a0]" name="prerequiste" is-config="true" duration-ms="1" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:TestTestNg.Day2@5e5792a0]" name="ploan" duration-ms="2" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- TestTestNg.Day2 -->
+      <class name="TestTestNg.Day4">
+        <test-method status="PASS" signature="LoginApihomeloan()[pri:0, instance:TestTestNg.Day4@3532ec19]" name="LoginApihomeloan" duration-ms="1" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApihomeloan -->
+        <test-method status="PASS" signature="Mobileloginhomeloan()[pri:0, instance:TestTestNg.Day4@3532ec19]" name="Mobileloginhomeloan" duration-ms="2" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileloginhomeloan -->
+        <test-method status="PASS" signature="Webloginhomeloan(java.lang.String)[pri:0, instance:TestTestNg.Day4@3532ec19]" name="Webloginhomeloan" duration-ms="3" started-at="2020-08-13T11:20:04Z" finished-at="2020-08-13T11:20:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Webloginhomeloan -->
+      </class> <!-- TestTestNg.Day4 -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

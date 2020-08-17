@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestTestNg.Day3Test
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.992 s <<< FAILURE! - in TestTestNg.Day3Test
+Weblogincarloan(TestTestNg.Day3Test)  Time elapsed: 0.274 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'URL' is required by @Test on method Weblogincarloan but has not been marked @Optional or defined
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="6">
+	<listeners>
+	
+	<listener class-name="TestTestNg.ListenerTest"/>
+	
+	</listeners>
+	
+  <test thread-count="5" name="Personal Loan">
+  <parameter name="URL" value="personalloan.com"/>
+  
+    <classes>
+      <class name="TestTestNg.Day1Test">
+      
+      <methods>
+      	<include name="Demo"/>
+      	    	      
+      </methods>
+      
+  </class>
+                  
+      <class name="TestTestNg.Day2Test"/>
+      <class name="TestTestNg.Day4Test"/>
+      <class name="MavenMobile.MobileAppTest.AppTest"/>
+      
+    </classes>
+    </test>
+    
+  <test name="Car Loan">
+  <parameter name="URL" value="carloan.com"/>
+  <parameter name="APIKey/userName" value="123456"/>
+    
+    <classes>
+    
+    <class name ="TestTestNg.Day3Test">
+        		<methods>
+    				<exclude name="Api.*"/>
+    			</methods>
+        		</class>
+    			
+    			
+        </classes>
+    </test>
+  </suite> <!-- Suite -->
